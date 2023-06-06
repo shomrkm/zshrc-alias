@@ -1,2 +1,2 @@
 # zshrc-alias
-Zshrc alias and functions
+Useful command line alias. This is for my usage.

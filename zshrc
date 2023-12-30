@@ -36,6 +36,10 @@ alias gup="git pull --rebase"
 alias gp="git push"
 alias gd="git diff"
 
+# Git Stash
+alias gs="git stash"
+alias gsp="git stash pop"
+
 # List all modified and untracked files, e.g., vim $(gchanges)
 gchanges() { git ls-files --exclude-standard --modified --other; }
 

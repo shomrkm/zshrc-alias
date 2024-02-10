@@ -40,6 +40,9 @@ alias gd="git diff"
 alias gs="git stash"
 alias gsp="git stash pop"
 
+# Git Log Tree
+alias gtree="git log --graph --pretty=format:'%x09%C(auto) %h %Cgreen %ar %Creset%x09by\"%C(cyan ul)%an%Creset\" %x09%C(auto)%s %d'"
+
 # List all modified and untracked files, e.g., vim $(gchanges)
 gchanges() { git ls-files --exclude-standard --modified --other; }
 

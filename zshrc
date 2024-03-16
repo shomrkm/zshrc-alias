@@ -38,6 +38,7 @@ alias gd="git diff"
 
 # Git Stash
 alias gs="git stash"
+alias gss="git stash save"
 alias gsp="git stash pop"
 
 # Git Log Tree

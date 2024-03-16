@@ -40,6 +40,7 @@ alias gd="git diff"
 alias gs="git stash"
 alias gss="git stash save"
 alias gsp="git stash pop"
+alias gsa="git stash apply"
 
 # Git Log Tree
 alias gtree="git log --graph --pretty=format:'%x09%C(auto) %h %Cgreen %ar %Creset%x09by\"%C(cyan ul)%an%Creset\" %x09%C(auto)%s %d'"

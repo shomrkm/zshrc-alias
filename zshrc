@@ -20,6 +20,10 @@ alias gst="git status"
 # Stage all changes in the current directory
 alias ga.="git add ."
 
+# Git branch
+alias gbr="git branch"
+alias gbrd="git fetch -p && git branch --merged | grep -v '*' | xargs git branch -d"
+
 # Commit changes
 alias gcm="git commit -m"
 alias gcam="git commit -am"

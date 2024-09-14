@@ -35,7 +35,7 @@ alias gdc="git diff --cached"
 
 # Pull changes
 alias gl="git pull"
-alias gup="git pull --rebase"
+alias gr="git pull --rebase"
 
 # Push changes
 alias gp="git push"

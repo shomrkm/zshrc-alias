@@ -96,3 +96,7 @@ dbu() { docker build -t=$1 .; }
 
 # Bash into running container
 dbash() { docker exec -it $(docker ps -aqf "name=$1") bash; }
+
+# fzf
+# Set up fzf key bindings and fuzzy completion
+eval "$(fzf --zsh)"

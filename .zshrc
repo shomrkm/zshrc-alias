@@ -1,16 +1,17 @@
 # ------------------------------------
 # alias and function
 # ------------------------------------
-alias ls="ls -G"
-alias ll="ls -lG"
-alias la="ls -laG"
+alias ls="eza"
+alias ll="eza -l"
+alias la="eza -la"
+alias tree="eza --tree"
 alias ds="du -smc"
 alias pn="pnpm"
-
 
 # ------------------------------------
 # Git alias and function
 # ------------------------------------
+
 
 # Show all alias related git
 galias() { alias | grep 'git' | sed "s/^\([^=]*\)=\(.*\)/\1 => \2/"| sed "s/['|\']//g" | sort; }
@@ -50,9 +51,14 @@ alias gsa="git stash apply"
 # Git Log Tree
 alias gtree="git log --graph --pretty=format:'%x09%C(auto) %h %Cgreen %ar %Creset%x09by\"%C(cyan ul)%an%Creset\" %x09%C(auto)%s %d'"
 
+# Git Worktree
+alias gwt="git worktree"
+alias gwtl="git worktree list"
+alias gwta="git worktree add"
+alias gwtrm="git worktree remove"
+
 # List all modified and untracked files, e.g., vim $(gchanges)
 gchanges() { git ls-files --exclude-standard --modified --other; }
-
 
 # ------------------------------------
 # Docker alias and function
